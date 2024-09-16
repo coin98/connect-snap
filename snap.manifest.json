@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "description": "OneID using on metamask to resolve domain name",
+  "proposedName": "OneID",
+  "source": {
+    "shasum": "gmYE8TVMpmyXQnZmskdiIb6q23TMKqBqyFKPGebYI2g=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icon.svg",
+        "packageName": "@oneid-xyz/connect-snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialConnections": {
+    "https://www.oneid.xyz": {}
+  },
+  "initialPermissions": {
+    "endowment:name-lookup": {
+      "chains": [
+        "eip155:88",
+        "eip155:1",
+        "eip155:56"
+      ]
+    },
+    "endowment:network-access": {}
+  },
+  "manifestVersion": "0.1"
+}
