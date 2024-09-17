@@ -28,6 +28,11 @@
     "dist",
     "snap.manifest.json",
     "changelogs.md",
-    "images"
-  ]
+    "images",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coin98/connect-snap.git"
+  }
 }
