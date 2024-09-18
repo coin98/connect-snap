@@ -1,0 +1,38 @@
+{
+  "name": "@oneid-xyz/connect-snap",
+  "version": "1.0.0",
+  "module": "dist/bundle.js",
+  "exports": {
+    ".": {
+      "require": "./dist/bundle.js"
+    }
+  },
+  "scripts": {
+    "build": "mm-snap build",
+    "reinstall": "rm -rf dist yarn.lock node_modules .turbo",
+    "publicpackage": "npm publish -f",
+    "test": "vitest run"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@metamask/snaps-sdk": "6.4.0",
+    "@oneid-xyz/inspect": "*"
+  },
+  "devDependencies": {
+    "@metamask/snaps-cli": "6.3.2",
+    "tsup": "6.7.0",
+    "typescript": "5.2.2",
+    "vitest": "1.6.0"
+  },
+  "files": [
+    "dist",
+    "snap.manifest.json",
+    "changelogs.md",
+    "images",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coin98/connect-snap.git"
+  }
+}
