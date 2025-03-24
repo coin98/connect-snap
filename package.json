@@ -1,6 +1,6 @@
 {
   "name": "@oneid-xyz/connect-snap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "dist/bundle.js",
   "exports": {
     ".": {
@@ -16,7 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "@metamask/snaps-sdk": "6.4.0",
-    "@oneid-xyz/inspect": "*"
+    "@oneid-xyz/inspect": "1.1.1",
+    "@oneid-xyz/base": "1.1.1"
   },
   "devDependencies": {
     "@metamask/snaps-cli": "6.3.2",

@@ -2,8 +2,12 @@
   "version": "1.0.0",
   "description": "OneID using on metamask to resolve domain name",
   "proposedName": "OneID",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coin98/connect-snap.git"
+  },
   "source": {
-    "shasum": "gmYE8TVMpmyXQnZmskdiIb6q23TMKqBqyFKPGebYI2g=",
+    "shasum": "2bwzPcBw5MjepC/kogw754aEFKjwLT0LUEBxLz7ODfw=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -18,13 +22,10 @@
   },
   "initialPermissions": {
     "endowment:name-lookup": {
-      "chains": [
-        "eip155:88",
-        "eip155:1",
-        "eip155:56"
-      ]
+      "chains": ["eip155:88", "eip155:1", "eip155:56"]
     },
     "endowment:network-access": {}
   },
+  "platformVersion": "6.4.0",
   "manifestVersion": "0.1"
 }
